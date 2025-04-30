@@ -1,0 +1,14 @@
+#This step function is triggered by lambda1 and will invoke and trigger Lambda 2 which will invoke the Bedrock Agent.
+
+
+{
+  "Comment": "Slack Message Handler State Machine",
+  "StartAt": "ProcessSlackMessage",
+  "States": {
+    "ProcessSlackMessage": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-2:519852036875:function:InvokeBedrockAndResponse_P1",
+      "End": true
+    }
+  }
+}
