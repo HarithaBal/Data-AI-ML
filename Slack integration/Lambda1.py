@@ -2,14 +2,14 @@
 to invoke bedrock agent
 
 ###############################################################################################################################################################################
-Environment Variables for Lambda 1:
-Key  	                                                     Value
+#Environment Variables for Lambda 1:
+#Key  	                                                     Value
 
-AGENT_ALIAS_ID											------------
-AGENT_ID												   --------------
-SLACK_BOT_ID											---------------
-SLACK_BOT_TOKEN									-------------------------------------------------------
-API Gateway URL												https://yf0b2uok08.execute-api.us-east-2.amazonaws.com/Prod/slack/events
+#AGENT_ALIAS_ID											------------
+#AGENT_ID												   --------------
+#SLACK_BOT_ID											---------------
+#SLACK_BOT_TOKEN									-------------------------------------------------------
+#API Gateway URL												https://yf0b2uok08.execute-api.us-east-2.amazonaws.com/Prod/slack/events
 												              https://yf0b2uok08.execute-api.us-east-2.amazonaws.com/Prod
 
 ###################################################################################################################################################################################
