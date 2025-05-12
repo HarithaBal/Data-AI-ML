@@ -1,0 +1,15 @@
+This will get detailed Step to implement the Chat Summerisation 
+
+Requirment:
+Update Collector and Manager Bot
+Description: Develop a bot to track user updates in Slack, summarize them, and send reports to managers.
+Tasks:
+1.	Integrate the bot with a designated Slack channel.
+2.	Collect user updates based on provided ticket numbers.
+3.	Format and summarize updates into a structured report.
+4.	Automatically send weekly update emails to the reporting manager.
+5.	Remind users about pending tasks and priorities.
+Acceptance Criteria:
+●	The bot successfully collects and formats updates.
+●	A structured report is emailed to managers every week.
+●	The bot sends reminders for incomplete tasks.
