@@ -1,5 +1,5 @@
 #This file will fetches all the pending Jira tasks tagged to user in Slack and notifys users  in Slack channel on Scheduled or 
-Cron Job basis or Trigger basis.
+#Cron Job basis or Trigger basis.
 
 import os
 import requests
